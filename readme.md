@@ -1,4 +1,4 @@
-# AI Book Generator
+# 📚 AI Book Generator
 
 ## Overview
 The **AI Book Generator** is a Streamlit-based application that helps authors create structured books using AI. The user provides a title and a description of the book, and the AI generates a Table of Contents (TOC). Once the TOC is approved, the AI generates content for each chapter and subtopic in markdown format. The content is then pushed to a GitHub repository using PyGithub.
