@@ -123,7 +123,7 @@ import markdown2
 
 # Set page configuration for Streamlit
 st.set_page_config(
-    page_title="AI Book Generator",
+    page_title="AI Book Generator Agent 🤖",
     page_icon="📚",
     layout="wide"
 )
@@ -223,8 +223,8 @@ st.markdown(
     """, unsafe_allow_html=True
 )
 
-st.title("📚 AI Book Generator")
-st.markdown("Welcome to the **AI Book Generator!** 🎉 Provide your book's title and description, and let the AI generate the content for you.")
+st.title("📚 AI Book Generator Agent 🤖")
+st.markdown("Welcome to the **AI Book Generator Agent 🤖!** 🎉 Provide your book's title and description, and let the AI generate the content for you.")
 
 # Initialize session state for maintaining the workflow
 if 'state' not in st.session_state:
