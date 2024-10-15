@@ -121,6 +121,13 @@ from github import Github
 from dotenv import load_dotenv
 import markdown2
 
+# Set page configuration for Streamlit
+st.set_page_config(
+    page_title="AI Book Generator",
+    page_icon="📚",
+    layout="wide"
+)
+
 # Load environment variables for API keys
 load_dotenv()
 os.environ["GROQ_API_KEY"] = os.getenv('GROQ_API_KEY')
@@ -188,7 +195,6 @@ workflow.set_entry_point("generate_toc")
 app = workflow.compile()
 
 # Streamlit User Interface
-st.set_page_config(page_title="AI Book Generator", layout="wide")
 st.markdown(
     """
     <style>
