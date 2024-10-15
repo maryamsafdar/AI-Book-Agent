@@ -2,7 +2,6 @@ streamlit
 langchain
 langgraph
 langchain_groq
-github
 python-dotenv
 markdown2
 PyGithub
