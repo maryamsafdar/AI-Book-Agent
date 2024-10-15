@@ -134,7 +134,7 @@ os.environ["GROQ_API_KEY"] = os.getenv('GROQ_API_KEY')
 GITHUB_TOKEN = os.getenv('GITHUB_TOKEN')
 
 # Initialize the ChatGroq model
-llm = ChatGroq(model="llama-3.1-70b-versatile", temperature=0)
+llm = ChatGroq(model="llama-3.1-8b-instant", temperature=0)
 
 # Define the state structure for book generation
 class BookState(TypedDict):

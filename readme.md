@@ -30,7 +30,7 @@ The **AI Book Generator** is a Streamlit-based application that helps authors cr
 
 3. Create a .env file in the project root and add your Groq API key:
    ```bash
-   OPENAI_API_KEY=your_openai_api_key
+   GROQ=groq_api_key
 
 4. Run the Streamlit app:
   ```bash 
