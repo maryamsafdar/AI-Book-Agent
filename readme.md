@@ -16,7 +16,7 @@ The **AI Book Generator** is a Streamlit-based application that helps authors cr
 ### Prerequisites
 - Python 3.7 or higher
 - GitHub account for repository access
-- OpenAI API key for generating content
+- GROQ API key for generating content
 
 ### Installation
 1. Clone the repository:
@@ -30,7 +30,7 @@ The **AI Book Generator** is a Streamlit-based application that helps authors cr
 
 3. Create a .env file in the project root and add your Groq API key:
    ```bash
-   GROQ=groq_api_key
+   GROQ_API_KEY=groq_api_key
 
 4. Run the Streamlit app:
   ```bash 
